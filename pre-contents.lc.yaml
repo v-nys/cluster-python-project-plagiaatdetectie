@@ -5,11 +5,95 @@ nodes:
     title: "Motivatie stap 1: templating"
   - id: stap-1-templating-implementatie
     title: "Implementatie stap 1: templating"
+  - id: stap-2-anonimisatie-motivatie
+    title: "Motivatie stap 2: anonimisatie"
+  - id: stap-2-anonimisatie-implementatie
+    title: "Implementatie stap 2: anonimisatie"
+  - id: stap-3-identieke-inhoud-motivatie
+    title: "Motivatie stap 3: identieke inhoud"
+  - id: stap-3-identieke-inhoud-implementatie
+    title: "Implementatie stap 3: identieke inhoud"
+  - id: stap-4-identieke-comments-motivatie
+    title: "Motivatie stap 4: identieke comments"
+  - id: stap-4-identieke-comments-implementatie
+    title: "Implementatie stap 4: identieke comments"
+  - id: stap-5-identieke-comments-via-boom-motivatie
+    title: "Motivatie stap 5: identieke comments via syntaxboom"
+  - id: stap-5-identieke-comments-via-boom-implementatie
+    title: "Implementatie stap 5: identieke comments via syntaxboom"
+  - id: stap-6-identieke-spelfouten-motivatie
+    title: "Motivatie stap 6: identieke spelfouten"
+  - id: stap-6-identieke-spelfouten-implementatie
+    title: "Implementatie stap 6: identieke spelfouten"
+  - id: stap-7-identieke-cst-zonder-comments-motivatie
+    title: "Motivatie stap 7: identieke CST zonder comments"
+  - id: stap-7-identieke-cst-zonder-comments-implementatie
+    title: "Implementatie stap 7: identieke CST zonder comments"
+  - id: stap-8-identieke-csts-motivatie
+    title: "Motivatie stap 8: identieke CST's over meerdere files"
+  - id: stap-8-identieke-csts-implementatie
+    title: "Implementatie stap 8: identieke CST's over meerdere files"
+  - id: stap-9-identieke-asts-motivatie
+    title: "Motivatie stap 9: identieke AST's over meerdere files"
+  - id: stap-9-identieke-asts-implementatie
+    title: "Implementatie stap 9: identieke AST's over meerdere files"
+  - id: extra-uitbreidingen
+    title: "Extra uitbreidingen project plagiaatdetectie"
 all_type_edges:
   - start_id: intro
     end_id: stap-1-templating-motivatie
+  - start_id: cluster-python-concepten__dictionary-comprehensions
+    end_id: stap-1-templating-implementatie
+  - start_id: cluster-python-concepten__jinja-basics
+    end_id: stap-1-templating-implementatie
+  - start_id: cluster-python-concepten__werken-met-paden
+    end_id: stap-3-identieke-inhoud-implementatie
+  - start_id: cluster-python-concepten__basis-reguliere-expressies
+    end_id: stap-4-identieke-comments-implementatie
+  - start_id: cluster-python-concepten__libcst-basis-visitor
+    end_id: stap-5-identieke-comments-via-boom-implementatie
+  - start_id: cluster-python-concepten__pyspellchecker-basis
+    end_id: stap-6-identieke-spelfouten-implementatie
+  - start_id: cluster-python-concepten__libcst-basis-transformer
+    end_id: stap-7-identieke-cst-zonder-comments-implementatie
+  - start_id: cluster-python-concepten__ast-module-basis
+    end_id: stap-9-identieke-asts-implementatie
 any_type_edges:
   - start_id: stap-1-templating-motivatie
     end_id: stap-1-templating-implementatie
+  - start_id: stap-1-templating-implementatie
+    end_id: stap-2-anonimisatie-motivatie
+  - start_id: stap-2-anonimisatie-motivatie
+    end_id: stap-2-anonimisatie-implementatie
+  - start_id: stap-2-anonimisatie-implementatie
+    end_id: stap-3-identieke-inhoud-motivatie
+  - start_id: stap-3-identieke-inhoud-motivatie
+    end_id: stap-3-identieke-inhoud-implementatie
+  - start_id: stap-3-identieke-inhoud-implementatie
+    end_id: stap-4-identieke-comments-motivatie
+  - start_id: stap-4-identieke-comments-motivatie
+    end_id: stap-4-identieke-comments-implementatie
+  - start_id: stap-4-identieke-comments-implementatie
+    end_id: stap-5-identieke-comments-via-boom-motivatie
+  - start_id: stap-5-identieke-comments-via-boom-motivatie
+    end_id: stap-5-identieke-comments-via-boom-implementatie
+  - start_id: stap-5-identieke-comments-via-boom-implementatie
+    end_id: stap-6-identieke-spelfouten-motivatie
+  - start_id: stap-6-identieke-spelfouten-motivatie
+    end_id: stap-6-identieke-spelfouten-implementatie
+  - start_id: stap-6-identieke-spelfouten-implementatie
+    end_id: stap-7-identieke-cst-zonder-comments-motivatie
+  - start_id: stap-7-identieke-cst-zonder-comments-motivatie
+    end_id: stap-7-identieke-cst-zonder-comments-implementatie
+  - start_id: stap-7-identieke-cst-zonder-comments-implementatie
+    end_id: stap-8-identieke-csts-motivatie
+  - start_id: stap-8-identieke-csts-motivatie
+    end_id: stap-8-identieke-csts-implementatie
+  - start_id: stap-8-identieke-csts-implementatie
+    end_id: stap-9-identieke-asts-motivatie
+  - start_id: stap-9-identieke-asts-motivatie
+    end_id: stap-9-identieke-asts-implementatie
+  - start_id: stap-9-identieke-asts-implementatie
+    end_id: extra-uitbreidingen
 roots:
   - intro
