@@ -1,0 +1,15 @@
+nodes:
+  - id: intro
+    title: "Introductie project plagiaatdetectie"
+  - id: stap-1-templating-motivatie
+    title: "Motivatie stap 1: templating"
+  - id: stap-1-templating-implementatie
+    title: "Implementatie stap 1: templating"
+all_type_edges:
+  - start_id: intro
+    end_id: stap-1-templating-motivatie
+any_type_edges:
+  - start_id: stap-1-templating-motivatie
+    end_id: stap-1-templating-implementatie
+roots:
+  - intro
