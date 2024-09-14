@@ -62,8 +62,13 @@ nodes:
     assignments:
       - id: indienopdracht
         title: "Indienopdracht implementatie stap 9"
+      - id: verslag
+        title: "Verslag"
   - id: extra-uitbreidingen
     title: "Extra uitbreidingen project plagiaatdetectie"
+    assignments:
+      - id: uitdaging
+        title: "Uitdaging"
 all_type_edges:
   - start_id: intro
     end_id: stap-1-templating-motivatie
