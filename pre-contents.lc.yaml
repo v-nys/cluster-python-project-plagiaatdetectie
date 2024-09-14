@@ -5,38 +5,63 @@ nodes:
     title: "Motivatie stap 1: templating"
   - id: stap-1-templating-implementatie
     title: "Implementatie stap 1: templating"
+    assignments:
+      - id: indienopdracht
+        title: "Indienopdracht implementatie stap 1"
   - id: stap-2-anonimisatie-motivatie
     title: "Motivatie stap 2: anonimisatie"
   - id: stap-2-anonimisatie-implementatie
     title: "Implementatie stap 2: anonimisatie"
+    assignments:
+      - id: indienopdracht
+        title: "Indienopdracht implementatie stap 2"
   - id: stap-3-identieke-inhoud-motivatie
     title: "Motivatie stap 3: identieke inhoud"
   - id: stap-3-identieke-inhoud-implementatie
     title: "Implementatie stap 3: identieke inhoud"
+    assignments:
+      - id: indienopdracht
+        title: "Indienopdracht implementatie stap 3"
   - id: stap-4-identieke-comments-motivatie
     title: "Motivatie stap 4: identieke comments"
   - id: stap-4-identieke-comments-implementatie
     title: "Implementatie stap 4: identieke comments"
+    assignments:
+      - id: indienopdracht
+        title: "Indienopdracht implementatie stap 4"
   - id: stap-5-identieke-comments-via-boom-motivatie
     title: "Motivatie stap 5: identieke comments via syntaxboom"
   - id: stap-5-identieke-comments-via-boom-implementatie
     title: "Implementatie stap 5: identieke comments via syntaxboom"
+    assignments:
+      - id: indienopdracht
+        title: "Indienopdracht implementatie stap 5"
   - id: stap-6-identieke-spelfouten-motivatie
     title: "Motivatie stap 6: identieke spelfouten"
   - id: stap-6-identieke-spelfouten-implementatie
     title: "Implementatie stap 6: identieke spelfouten"
+    assignments:
+      - id: indienopdracht
+        title: "Indienopdracht implementatie stap 6"
   - id: stap-7-identieke-cst-zonder-comments-motivatie
     title: "Motivatie stap 7: identieke CST zonder comments"
   - id: stap-7-identieke-cst-zonder-comments-implementatie
     title: "Implementatie stap 7: identieke CST zonder comments"
-  - id: stap-8-identieke-csts-motivatie
-    title: "Motivatie stap 8: identieke CST's over meerdere files"
-  - id: stap-8-identieke-csts-implementatie
+    assignments:
+      - id: indienopdracht
+        title: "Indienopdracht implementatie stap 7"
+  - id: stap-8-identieke-csts-implementatie-en-motivatie
     title: "Implementatie stap 8: identieke CST's over meerdere files"
+    assignments:
+      - id: indienopdracht
+        title: "Indienopdracht implementatie stap 8"
   - id: stap-9-identieke-asts-motivatie
     title: "Motivatie stap 9: identieke AST's over meerdere files"
   - id: stap-9-identieke-asts-implementatie
     title: "Implementatie stap 9: identieke AST's over meerdere files"
+    assignments:
+      - id: indienopdracht
+        title: "Indienopdracht implementatie stap 9"
   - id: extra-uitbreidingen
     title: "Extra uitbreidingen project plagiaatdetectie"
 all_type_edges:
@@ -48,7 +73,7 @@ all_type_edges:
     end_id: stap-1-templating-implementatie
   - start_id: cluster-python-concepten__werken-met-paden
     end_id: stap-3-identieke-inhoud-implementatie
-  - start_id: cluster-python-concepten__basis-reguliere-expressies
+  - start_id: cluster-python-concepten__groepen-in-reguliere-expressies
     end_id: stap-4-identieke-comments-implementatie
   - start_id: cluster-python-concepten__libcst-basis-visitor
     end_id: stap-5-identieke-comments-via-boom-implementatie
@@ -86,10 +111,8 @@ any_type_edges:
   - start_id: stap-7-identieke-cst-zonder-comments-motivatie
     end_id: stap-7-identieke-cst-zonder-comments-implementatie
   - start_id: stap-7-identieke-cst-zonder-comments-implementatie
-    end_id: stap-8-identieke-csts-motivatie
-  - start_id: stap-8-identieke-csts-motivatie
-    end_id: stap-8-identieke-csts-implementatie
-  - start_id: stap-8-identieke-csts-implementatie
+    end_id: stap-8-identieke-csts-implementatie-en-motivatie
+  - start_id: stap-8-identieke-csts-implementatie-en-motivatie
     end_id: stap-9-identieke-asts-motivatie
   - start_id: stap-9-identieke-asts-motivatie
     end_id: stap-9-identieke-asts-implementatie
