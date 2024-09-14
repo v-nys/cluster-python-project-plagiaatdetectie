@@ -97,3 +97,8 @@ any_type_edges:
     end_id: extra-uitbreidingen
 roots:
   - intro
+node_plugins:
+  - path: "$APPLICATION_SOURCE_DIR/rust-workspace/target/debug/liblblp_assignments_plugin.so"
+    require_solutions: False
+pre_cluster_plugins:
+  - path: "$APPLICATION_SOURCE_DIR/rust-workspace/target/debug/liblblp_markdown_rendering_plugin.so"
